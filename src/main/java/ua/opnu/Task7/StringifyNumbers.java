@@ -6,7 +6,7 @@ import java.util.function.Function;
 // Завдання 7: Stringify метод з Function
 public class StringifyNumbers {
     
-    // Метод stringify для перетворення чисел у рядки
+
     public static String[] stringify(int[] numbers, Function<Integer, String> converter) {
         String[] result = new String[numbers.length];
         
